@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* fonts 
+1 ubuntu 400/700/500
+2 overpass 600/300
+*/
+.container{
+    max-width: 1166px;
+    padding: 0px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;  
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 50px;
+}
+/* SECTION STYLES */
+.header{
+    background: url('img/Group\ 7.png');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.designed{
+    font-family: 'Overpass';
+    text-align: center;
+    color:#1F3E5A;
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 300px;
+}
+.state{
+    background: url('./img/Rectangle\ Copy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 1440px;
+    margin-bottom: 50px;
+}
+.simple{
+    font-family: 'Overpass';
+    text-align: center;
+    color:#1F3E5A;
+    position: relative;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.footer{
+    margin: auto;
+    max-width: 1440px;
+    background: url('./img/Rectangle.png');
+    height: 359px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/* NAVBAR STYLES */
+.navbar{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 132px;
+}
+.logo{
+    margin-right: 64px;
+}
+.nav-list{
+    display: flex;
+    margin-right: auto;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+    position: relative;
+    transition: 0.5 ease;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.rotate{
+    margin-left: 8px;
+    transition: 0.5s;
+}
+.unset-list{
+    background: white;
+    position: absolute;
+    padding: 24px;
+    border-radius: 5px;
+    margin-top: 170px;
+    display: none;
+    transition: 0.5s;
+}
+.nav-item:hover .unset-list{
+    display: block;
+}
+.nav-item:hover .rotate{
+    transform: rotate(180deg);
+}
+.nav-item:hover .nav-link{
+    text-decoration: underline;
+}
+.unset-item{
+    list-style: none;
+}
+.unset-item:not(:last-child){
+    margin-bottom: 10px;
+}
+.unset-link{
+    color: black;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 400;
+}
+.unset-link:active{
+    opacity: 1;
+    font-weight: 700;
+}
+.btn{
+    padding: 15px 40px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.sign-up-btn{
+    color: #FF505C;
+    background: white;
+    border-radius: 50px;
+}
+.sign-up-btn:hover{
+    background: #FF7B86;
+    border-radius: 50px;
+    color:white;
+}
+/* PLATFORM STYLES */
+.platform{
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    color:white;
+}
+.title{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 98px;
+    letter-spacing: -1.9199999570846558px;
+    text-align: center;  
+    margin-bottom: 8px;
+}
+.platform-text{
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.learn-more{
+    border: 1px solid white;
+    margin-left: 10px;
+}
+.learn-more:hover{
+    background: white;
+    color:#FF505C;
+}
+.free{
+    margin-right: 10px;
+}
+/* DESIGNED STYLES */
+.designed-title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: -1.2000000476837158px;
+    color: #1F3E5A;
+    margin-bottom: 93px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    max-width: 540px;
+    text-align: left;
+}
+.card:first-child{
+    margin-bottom: 64px;
+}
+
+.card-title{
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+.content-img{
+    position: absolute;
+    background-image: url('./img/Group\ 21.png');
+    right: -10%;
+    height: 880px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-img{
+    margin-right: 100px;
+    margin-left: -100px;
+}
+.state-img{
+  position: absolute;
+  margin-top: -110px;
+  left: 10%;
+}
+.state-text{
+    color:white;
+    font-family: 'Overpass', sans-serif;
+    margin-right: -600px;
+    margin-top: 60px;
+}
+
+.powerfool{
+    display: flex;
+    align-items: center;
+}
+.simple-img{
+    margin-left: -200px;
+}
+.footer-text{
+    padding: 70px 0px;
+    display: flex;
+}
+.footer-logo{
+    margin-right: auto;
+}
+.footer-list{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+.footer-list:not(:last-child){
+    margin-right: 240px;
+}
+.footer-title{
+    margin-bottom: 15px; 
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
+}
+.footer-item{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.footer-link{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    opacity: 0.7;
+}
