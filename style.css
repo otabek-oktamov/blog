@@ -397,7 +397,7 @@
         top:150%;
         height: 511px;
         border-radius: 10px;
-        transform: translateX(400px);
+        transform: translateX(600px);
         transition: 0.7s ease-in;
     }
     .lists-active{
