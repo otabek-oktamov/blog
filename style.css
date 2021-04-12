@@ -320,6 +320,10 @@
 }
 
 @media screen and (max-width:768px){
+    body{
+        max-width:768px;
+        overflow-x: hidden;
+    }
 
     /* BURGER STYLES */
     
@@ -382,7 +386,24 @@
     .header{
         max-width:768px;
         background-position:left;
-        overflow: hidden;
+        overflow-x: hidden;
+    }
+    .designed{
+        max-width:768px;
+        padding-top: 100px;
+        overflow-x: hidden;
+    }
+    .state{
+        max-width:768px;
+        overflow-x: hidden;
+    }
+    .simple{
+        max-width:768px;
+        overflow-x: hidden;
+    }
+    .footer{
+        max-width:768px;
+        overflow-x: hidden;
     }
     .navbar{
         position: relative;
@@ -482,5 +503,47 @@
     }
     .learn-more{
         padding: 15px 24px;
+    }
+    .designed-title{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 43px;
+        letter-spacing: -0.8399999737739563px;
+    }
+    .img-img{
+       display: none;
+    }
+    .content-img{
+       background: url('./img/Group\ 10.svg');
+       width: 326px;
+       height:326px ;
+       top: 15%;
+       left: 10%;
+    }
+    .content-card{
+        text-align: center;
+        margin-top: 410px;
+    }
+    .card{
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .card-title{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+    .state{
+        background: url('./img/bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 625px;
+        width: 100%;
+    }
+    .state-img-tel{
+        width: 328px;
+        height: 327px;
+        margin-top: -200px;
     }
 }
