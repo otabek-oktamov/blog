@@ -572,7 +572,7 @@
    .footer{
     background: url('./img/footer.png');
     height: 900px;
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     padding-bottom: 100px;
    }
