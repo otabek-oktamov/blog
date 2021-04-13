@@ -27,6 +27,7 @@
     background-position: center;
     background-repeat: no-repeat;
     max-width: 1440px;
+    margin: auto;
 }
 .designed{
     font-family: 'Overpass';
@@ -312,13 +313,10 @@
     cursor: pointer;
 }
 
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: whitesmoke;
-    margin: 5px;
-}
 
+.state-img1{
+    display: none;
+}
 @media screen and (max-width:768px){
     body{
         max-width:768px;
@@ -393,10 +391,7 @@
         padding-top: 100px;
         overflow-x: hidden;
     }
-    .state{
-        max-width:768px;
-        overflow-x: hidden;
-    }
+
     .simple{
         max-width:768px;
         overflow-x: hidden;
@@ -539,11 +534,64 @@
         background-position: center;
         background-repeat: no-repeat;
         height: 625px;
-        width: 100%;
+        max-width: 768px;
+        overflow-x: hidden;
+        z-index: -1;
     }
-    .state-img-tel{
-        width: 328px;
-        height: 327px;
-        margin-top: -200px;
-    }
+   .state-img{
+       display: none;
+   }
+   .state-img1{
+       display: block;
+       margin-bottom: -200px;
+       z-index: 99;
+   }
+   .state-text{
+       margin: 0;
+       padding: 0;
+       margin-top: 100px;
+   }
+   .simple{
+       display: flex;
+       flex-direction: column;
+   }
+   .simple-img{
+       background: url('./img/minicomp.png');
+       width: 328px;
+       height: 326px;
+       background-position:center;
+       background-repeat:no-repeat;
+       margin-left: auto;
+   }
+   .simple-content{
+       margin-top: 50px;
+   }
+   .imgss{
+       display: none;
+   }
+   .footer{
+    background: url('./img/footer.png');
+    height: 900px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+   }
+   .footer-list{
+    margin: 0px;
+}
+  .footer-text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .footer-logo{
+      margin: 0;
+
+  }
+.s{
+    margin: 0  !important;
+}
+  
 }
